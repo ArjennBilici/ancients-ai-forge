@@ -1,0 +1,48 @@
+button{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:14px;
+    background:var(--gold);
+    color:#000;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.25s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+    filter:brightness(1.05);
+}
+
+.grid{
+    display:grid;
+    gap:16px;
+    margin-top:20px;
+}
+
+.input{
+    width:100%;
+    padding:14px;
+    border-radius:12px;
+    border:1px solid var(--border-soft);
+    background:var(--bg-card-soft);
+    color:white;
+    outline:none;
+    font-size:16px;
+}
+
+textarea.input{
+    min-height:180px;
+    resize:vertical;
+}
+
+.badge{
+    display:inline-block;
+    padding:6px 12px;
+    border-radius:999px;
+    background:#222;
+    color:var(--gold);
+    font-size:13px;
+}
