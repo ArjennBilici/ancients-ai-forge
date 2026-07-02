@@ -1,0 +1,22 @@
+:root {
+  --bg-main: #070707;
+  --bg-card: #141414;
+  --bg-card-soft: #1b1b1b;
+
+  --gold: #d4af37;
+  --gold-light: #f1d16b;
+  --gold-dark: #8f6f18;
+
+  --text-main: #ffffff;
+  --text-soft: #b8b8b8;
+  --text-muted: #777777;
+
+  --border-soft: #2d2d2d;
+  --danger: #ff5c5c;
+  --success: #4ade80;
+
+  --radius-md: 14px;
+  --radius-lg: 22px;
+
+  --shadow-gold: 0 0 24px rgba(212, 175, 55, 0.18);
+}
